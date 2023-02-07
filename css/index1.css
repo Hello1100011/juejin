@@ -1,0 +1,147 @@
+.shortcut a{
+    text-decoration: none;
+    color: grey;
+    line-height: 5.7vh;
+    font-size: 14px;
+}
+.shortcut{
+    position: relative;
+    width: 62.5vw;
+    height: 5.8vh;
+    margin: 0 auto;
+}
+.fl{
+    position: absolute;
+    left: 0;
+    float: left;
+}
+.fl a:hover{
+    color: #1E80FF;
+}
+.fr{
+    float: right;
+}
+.fr a:hover{
+    color: #1E80FF;
+}
+.longdiv{
+    border-bottom:1px solid #e9eaeb;
+    background-color: #FFFFFF;
+}
+.main{
+    margin: 0 auto;
+    position: relative;
+    width: 62.5vw;
+    height: 350vh;
+    margin-top: 2vh;
+}
+.main-container{
+    float: left;
+    width: 47vw;
+    height: 350vh;
+    background-color: #FFFFFF;
+}
+.main1{
+    right: 0;
+    width: 14vw;
+    height: 10vh;
+    background-color: #FFFFFF;
+    position: absolute;
+}
+.main2{
+    width: 47vw;
+    height: 5.5vh;
+    background-color: #FFFFFF;
+    border-bottom:1px solid #e9eaeb;
+    float: left;
+    position: relative;
+}
+.main3{
+    right: 0;
+    width: 14vw;
+    height: 29.5vh;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 12vh;
+}
+.main4{
+    right: 0;
+    width: 14vw;
+    height: 29.5vh;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 44vh;
+}
+.main5{
+    right: 0;
+    width: 14vw;
+    height: 10vh;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 76vh;
+}
+.main6{
+    right: 0;
+    width: 14vw;
+    height: 40vh;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 88vh;
+}
+.main2 ul li a{
+    text-decoration:none;
+    color: grey;
+    font-size: 15px;
+}
+.main2 ul{
+    list-style: none;
+}
+.main2 ul li{
+    float: left;
+}
+.main .main-container .main2 .o ul li:nth-child(even){
+    width: 1px;
+    height: 16px;
+    background-color: rgb(206, 203, 203);
+    margin-right: 1.5vw;
+    margin-left: 1.5vw;
+}
+.main2 ul li a:hover{
+    color: #1E80FF;
+}
+.p1{
+    padding-left: 10px;
+}
+.p2{
+    font-size: 10px;
+    padding-left: 10px;
+    color: grey;
+}
+.signin{
+    display: block;
+    width: 5vw;
+    height: 5vh;
+    background-color: #F4F9FF;
+    border:1px solid #a8c6ec;
+    border-radius: 5px;
+    float: right;
+    position: absolute;
+    right: 0.8vw;
+    top:3vh;
+    text-align: center;
+}
+.signin a{
+    color:#1E80FF;
+    line-height: 5vh;
+    text-decoration: none;
+}
+.wrap{
+    position: absolute;
+    top: 8vh;
+    left: 1vw;
+    width: 45vw;
+    background-color: #FFFFFF;
+    float:right;
+    border-bottom:1px solid #e9eaeb;
+    height: 16vh;
+}

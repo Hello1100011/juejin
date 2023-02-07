@@ -1,0 +1,168 @@
+.main{
+    margin: 0 auto;
+    position: relative;
+    width: 70vw;
+    height: 350vh;
+    margin-top: 11.1vh;
+}
+.main-container{
+    float: left;
+    width: 49.5vw;
+    height: 350vh;
+    background-color: #FFFFFF;
+}
+.main1{
+    right: 0;
+    width: 19vw;
+    height: 30vh;
+    background-color: #FFFFFF;
+    position: absolute;
+}
+.main3{
+    right: 0;
+    width: 19vw;
+    height: 9.5vh;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 32vh;
+}
+.main4{
+    right: 0;
+    width: 19vw;
+    height: 29.5vh;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 44vh;
+}
+.main5{
+    right: 0;
+    width: 19vw;
+    height: 10vh;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 76vh;
+}
+.main6{
+    right: 0;
+    width: 19vw;
+    height: 40vh;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 88vh;
+}
+.c1{
+    position: absolute;
+    float: left;
+    background-color: #FFFFFF;
+    width: 46px;
+    height:46px;
+    top: 20vh;
+    left: 9vw;
+    border-radius: 23px;
+}
+.c2{
+    position: absolute;
+    float: left;
+    background-color: #FFFFFF;
+    width: 46px;
+    height:46px;
+    top: 30vh;
+    left: 9vw;
+    border-radius: 23px;
+}
+.c3{
+    position: absolute;
+    float: left;
+    background-color: #FFFFFF;
+    width: 46px;
+    height:46px;
+    top: 40vh;
+    left: 9vw;
+    border-radius: 23px;
+}
+.c4{
+    position: absolute;
+    float: left;
+    background-color: #FFFFFF;
+    width: 46px;
+    height:46px;
+    top: 50vh;
+    left: 9vw;
+    border-radius: 23px;
+}
+.c5{
+    position: absolute;
+    float: left;
+    background-color: #FFFFFF;
+    width: 46px;
+    height:46px;
+    top: 65vh;
+    left: 9vw;
+    border-radius: 23px;
+}
+.c6{
+    position: absolute;
+    float: left;
+    background-color: #FFFFFF;
+    width: 46px;
+    height:46px;
+    top: 75vh;
+    left: 9vw;
+    border-radius: 23px;
+}
+.icon1{
+    float: left;
+    position: absolute;
+    left:12px;
+    top: 12px;
+    text-align: center;
+}
+.icon2{
+    float: left;
+    position: absolute;
+    left:12px;
+    top: 12px;
+    text-align: center;
+}
+.icon3{
+    float: left;
+    position: absolute;
+    left:9px;
+    top: 9px;
+    text-align: center;
+}
+.icon4{
+    float: left;
+    position: absolute;
+    left:11px;
+    top: 11px;
+    text-align: center;
+}
+.icon5{
+    float: left;
+    position: absolute;
+    left:12px;
+    top: 12px;
+    text-align: center;
+}
+.icon6{
+    float: left;
+    position: absolute;
+    left:12px;
+    top: 12px;
+    text-align: center;
+}
+.circle{
+    position: fixed;
+    width: 100%;
+    left:0;
+    top:0;
+    z-index: 1;
+}
+.nav-box{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}

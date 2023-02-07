@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>创作者中心-掘金</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="css/editor.css">
+</head>
+<style>
+.shell{
+    width:57.33vw;
+    height:40vh;
+    position:relative;
+    /*overflow-x:hidden;*/
+    top: 2vh;
+}
+.images{
+    width:293%;
+    height:80%;
+    display:flex;
+    position: absolute;
+    left: -2.6vw;
+    transition: .2s;
+    list-style: none;
+}
+.img{
+    width:100%;
+    background-size: cover;
+}
+.img:nth-child(1){
+    background-image: url("images/1.png");
+}
+.img:nth-child(2){
+    background-image: url("images/2.png");
+}
+.img:nth-child(3){
+    background-image: url("images/3.png");
+}
+.min-images{
+    display:flex;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: -45px;
+    width: 40%;
+    z-index: 999;
+    right: 30%;
+    list-style: none;
+}
+.min{
+    width: 50px;
+    height: 6px;
+    cursor: pointer;
+    background-size: cover;
+    border:solid 1px whitesmoke;
+    background-color: #E5E6EB;
+}
+.button{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    user-select: none;
+}
+.button-left,
+.button-right{
+    font-size: 50px;
+    background-color: #fff;
+    padding: 0 5px;
+    line-height: 50vh;
+    cursor: pointer;
+}
+</style>
+<body>
+    <div class="nav-box">
+    <section class="header1">
+        <span class="span1"><ul>
+            <li><span class="logo">
+                <h1><a href="zhuye.html">稀土掘金</a></h1>
+            </span></li>
+        <span class="editorspan">
+            &nbsp;&nbsp;创作者中心</span>
+        </section>
+    </div>
+        <div class="main">
+            <div class="nav2"><span class="main-container">
+                <div class="write"><a href="#">写文章</a></div>
+                <div class="write2"><a href="#">首页</a></div>
+                <div class="nav">
+                <div class="content">
+                    <div class="menu-box">
+                        <div class="menu">
+                            <!-- 每一项导航 -->
+                            <div class="menu-item">
+                                <input type="checkbox" id="menu-item1">
+                                <label for="menu-item1">
+                                    <i class="menu-item-icon iconfont icon-a-01-shujuzhongxin"></i>
+                                    <span>&nbsp;内容管理</span>
+                                    <i class="menu-item-last iconfont icon-down"></i>
+                                </label>
+                                <div class="menu-content">
+                                    <span>文章管理</span>
+                                    <span>专栏管理</span>
+                                    <span>沸点管理</span>
+                                </div>
+                            </div>
+            
+                            <div class="menu-item">
+                                <input type="checkbox" id="menu-item2">
+                                <label for="menu-item2">
+                                    <i class="menu-item-icon iconfont icon-a-02-kechengguanli"></i>
+                                    <span>&nbsp;数据中心</span>
+                                    <i class="menu-item-last iconfont icon-down"></i>
+                                </label>
+                                <div class="menu-content">
+                                    <span>内容数据</span>
+                                    <span>关注者数据</span>
+                                </div>
+                            </div>
+            
+                            <div class="menu-item">
+                                <input type="checkbox" id="menu-item3">
+                                <label for="menu-item3">
+                                    <i class="menu-item-icon iconfont icon-a-04-zixunfabu"></i>
+                                    <span>&nbsp;创作成长</span>
+                                    <i class="menu-item-last iconfont icon-down"></i>
+                                </label>
+                                <div class="menu-content">
+                                    <span>文章导入发布</span>
+                                </div>
+                            </div>
+                            <div class="menu-item">
+                                <label>
+                                    <i class="menu-item-icon iconfont icon-a-08-shezhi"></i>
+                                    <span>&nbsp;活动中心</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </span></div>
+            <span class="main1">
+                <div class="shell">
+                    <ul class="images">
+                        <li class="img"></li>
+                        <li class="img"></li>
+                        <li class="img"></li>
+                    </ul>
+                    <ul class="min-images">
+                        <li class="min"></li>
+                        <li class="min"></li>
+                        <li class="min"></li>
+                    </ul>
+                   <div class="button">
+                    <div class="button-left">&nbsp;</div>
+                    <div class="button-right">&nbsp;</div>
+                   </div>
+                </div>
+            </span>
+            <span class="main3">
+                <span class="aaa">&nbsp;&nbsp;&nbsp;数据概览</span>
+                <span class="aaa1">&nbsp;&nbsp;&nbsp;总关注者数</span>
+                <span class="aaa2">&nbsp;&nbsp;&nbsp;文章展现数</span>
+                <span class="aaa3">&nbsp;&nbsp;&nbsp;文章阅读数</span><br>
+                <span class="aaa4">&nbsp;&nbsp;&nbsp;文章点赞数</span>
+                <span class="aaa5">&nbsp;&nbsp;&nbsp;文章评论数</span>
+                <span class="aaa6">&nbsp;&nbsp;&nbsp;文章收藏数</span>
+            </span>
+            <span class="main4"></span>
+            <span class="main5"></span>
+        </div>
+</body>
+<script>
+    let left=document.querySelector('.button-left')
+    let right=document.querySelector('.button-right')
+    let min=document.querySelectorAll('.min')
+    let images=document.querySelector('.images')
+
+    let index=0
+    let time
+
+    function position(){
+        images.style.left=(index * -100)+"%"
+    }
+    function add(){
+        if(index>=min.length-1){
+            index=0
+        }else{
+            index++
+        }
+    }
+    function desc(){
+        if(index<1){
+            index=min.length-1
+        }else{
+            index--
+        }
+    }
+    function timer(){
+        time=setInterval(()=>{
+            index++
+            desc()
+            add()
+            position()
+        },3000)
+    }
+    left.addEventListener('click',()=>{
+        desc()
+        position()
+        clearInterval(time)
+        timer()
+    })
+    right.addEventListener('click',()=>{
+        add()
+        position()
+        clearInterval(time)
+        timer()
+    })
+    for(let i=0;i<min.length;i++){
+        min[i].addEventListener('click',()=>{
+            index=i
+            position()
+            clearInterval(time)
+            timer()
+        })
+    }
+    timer()
+</script>
+</html>
